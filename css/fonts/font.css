@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('./Inter.ttf') format('truetype');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'space-odyssey';
+    src: url('./SpaceOdyssey.otf') format('truetype');
+    font-weight: 400;
+}
+
+html body .font-space-odyssey{
+    font-family: space-odyssey, sans-serif;
+}
