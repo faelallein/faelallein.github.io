@@ -1,8 +1,14 @@
 html body .btn-base {
-    border-radius: 8px;
+    border-radius: 15px;
     border: none;
-    padding: 10px 15px 10px 15px;
+    padding: 20px 20px 20px 20px;
     max-width: fit-content;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+html body .btn-base img{
+    margin-left: 15px;
 }
 
 html body .primary-btn {
