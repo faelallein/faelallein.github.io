@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'spaceOdyssey';
+    src: url('./SpaceOdyssey.ttf') format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'space-odyssey';
+    src: url('./SpaceOdyssey.otf') format('truetype');
+    font-weight: 400;
+}
+
+html body .font-space-odyssey {
+    font-family: spaceOdyssey !important;
+}
+
+html body .font-space-odyssey-otf {
+    font-family: spaceOdyssey !important;
+}
