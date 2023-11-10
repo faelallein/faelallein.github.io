@@ -37,11 +37,11 @@
 @keyframes fadeInDown {
     from {
         opacity: 0;
-        transform: translateY(30%);
+        bottom: -100vh;
     }
 
     to {
         opacity: 1;
-        transform: translateY(0);
+        bottom: 0vh;
     }
 }
