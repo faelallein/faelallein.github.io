@@ -45,3 +45,19 @@
         bottom: 0vh;
     }
 }
+
+.fade-item-in-down-to-up {
+    animation: fadeItemInDown 1s ease forwards;
+}
+
+@keyframes fadeItemInDown {
+    from {
+        opacity: 0;
+        transform: translateY(20%);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
