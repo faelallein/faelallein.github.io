@@ -61,3 +61,18 @@
         transform: translateY(0);
     }
 }
+
+.fade-item {
+    animation: fadeItem 1s ease forwards;
+    animation-delay: 4s;
+}
+
+@keyframes fadeItem {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
